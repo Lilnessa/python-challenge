@@ -87,7 +87,8 @@ print(f"Average: ${avgchange:,.2f}\n")
 print(f"Greatest Increase in Profits: {gincrease['date']} (${gincrease['change']:,})\n")
 print(f"Greatest Increase in Profits: {gdecrease['date']} (${gdecrease['change']:,})\n")
 
-with open("PyBank_result.txt","w") as text_file:
+result_txt = os.path.join("PyBank", "analysis","PyBank_result.txt")
+with open(result_txt,"w") as text_file:
     text_file.write(os.linesep +"Financial Analysis"+ os.linesep)
     text_file.write("----------------------------"+ os.linesep)
     text_file.write(f"Total Months: {TotalMon}"+ os.linesep)
