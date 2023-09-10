@@ -10,7 +10,7 @@
 * The changes in "Profit/Losses" over the entire period, and then the average of those changes
 * The greatest increase in profits (date and amount) over the entire period
 * The greatest decrease in profits (date and amount) over the entire period
-* Export to text file PyBank_result.txt
+* Export text file to PyBank/analysis/PyBank_result.txt
 
 ### PyPoll/main.py
 * The total number of votes cast 
@@ -18,4 +18,4 @@
 * The percentage of votes each candidate won
 * The total number of votes each candidate won
 * The winner of the election based on popular vote
-* Export to text file PyPoll_result.txt
+* Export text file to PyPoll/analysis/PyPoll_result.txt
